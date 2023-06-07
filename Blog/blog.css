@@ -1,0 +1,380 @@
+@import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+.choose {
+  color: #2e3a59;
+  font-family: "Euclid Circular A";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.choose li {
+  list-style: none;
+}
+.logo {
+  height: 48px;
+  width: 152px;
+  left: 112px;
+  top: 20px;
+}
+.navbar-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.login-button {
+  border: 1px solid #c5cee0;
+  border-radius: 8px;
+  background-color: white;
+  width: 101px;
+  height: 40px;
+  color: #2e3a59;
+  margin-left: 12px;
+}
+.signup-button {
+  background-color: #ffd339;
+  color: #2e3a59;
+  border-radius: 8px;
+  width: 101px;
+  height: 40px;
+}
+.language-money {
+  font-style: "Euclid Circular A";
+  line-height: 20px;
+  width: 56px;
+  gap: 20px;
+  display: flex;
+}
+.globe {
+  display: flex;
+  align-items: center;
+}
+.selects {
+  border-style: none;
+  box-sizing: border-box;
+  border-color: #c5cee0;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #2e3a59;
+}
+.selects option {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #2e3a59;
+  background: #ffffff;
+  border: 1px solid #c5cee0;
+  box-sizing: border-box;
+  border-color: #c5cee0;
+  border-radius: 4px;
+}
+.blog-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-boxes {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 72px;
+}
+.blog-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-section h2 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #222b45;
+  margin-top: 32px;
+}
+.blog-photo h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #222b45;
+  margin-top: 24px;
+}
+.blog-photo .blog-content {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8f9bb3;
+  display: flex;
+  margin-top: 24px;
+}
+.blog-content .eyes {
+  margin-left: 50px;
+}
+.blog-titlecon {
+  width: 90%;
+}
+
+.blog-pages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pages {
+  padding: 110px;
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.blog-pages ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-pages li {
+  list-style: none;
+  margin: 0 10px;
+  padding: 12px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #2e3a59;
+}
+.page-nums ul li:nth-child(3):hover {
+  background-color: #ffd339;
+  border-radius: 8px;
+  color: white;
+}
+.page-nums ul li:hover {
+  background-color: #ffd339;
+  border-radius: 8px;
+  color: white;
+}
+.first-row {
+  height: 491px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #f7f9fc;
+  padding: 57px;
+  gap: 16px 16px;
+}
+.first-row h3 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2e3a59;
+}
+.first-row li {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f9bb3;
+  list-style-type: none;
+  margin-top: 16px;
+}
+.first-row li:hover {
+  color: #2e3a59;
+}
+.second-row {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-row ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-row li {
+  list-style: none;
+  margin: 0 10px;
+  padding: 12px;
+}
+.second-row li:hover {
+  background-color: #edf1f7;
+  padding: 12px;
+  border-radius: 50%;
+}
+.second-row ul li a {
+  list-style: none;
+  height: 24px;
+  color: #8f9bb3;
+}
+.third-row {
+  width: 100%;
+  height: 20px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2e3a59;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.join-button {
+  display: none;
+}
+.menu-logo {
+  display: none;
+}
+@media screen and (max-width: 450px) {
+  body {
+    width: 100%;
+    margin-left: 14%;
+  }
+  .navbar {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+    margin-bottom: 10px;
+  }
+  .choose {
+    display: none;
+  }
+  .join-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background-color: #ffd339;
+    color: #2e3a59;
+    border-radius: 8px;
+    right: 25%;
+    position: absolute;
+    border-color: #ffd339;
+    margin-right: 20px;
+  }
+  .blog-section h2 {
+    margin-top: 24px;
+    margin-right: 100px;
+  }
+  .blog-photo {
+    align-items: flex-start;
+  }
+  .blog-boxes {
+    width: 96%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 48px;
+    margin-top: 42px;
+  }
+  .eyes {
+    width: 20px;
+    height: 20px;
+  }
+  .blog-photo img:first-child {
+    width: 300px;
+  }
+  .blog-titlecon {
+    width: 90%;
+  }
+  .blog-titlecon h1 {
+    width: 85%;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .blog-pages {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .pages {
+    padding: 50px 0px;
+    width: 70%;
+    justify-content: center;
+  }
+  .blog-pages li {
+    padding: 4px;
+  }
+
+  .first-row {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f7f9fc;
+    padding: 30px;
+    gap: 16px 16px;
+  }
+  .first-row .row-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-row ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-row h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-row {
+    width: 80%;
+  }
+  .third-row {
+    width: 80%;
+  }
+}

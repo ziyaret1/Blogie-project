@@ -1,0 +1,320 @@
+@import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 48px;
+  width: 152px;
+  left: 112px;
+  top: 20px;
+}
+.navbar {
+  width: 70%;
+  padding: 32px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 32px;
+}
+.navbar p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #2e3a59;
+}
+.navbar .signup {
+  background: #ffffff;
+  border: 1px solid #222b45;
+  border-radius: 8px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #222b45;
+  width: 101px;
+  height: 40px;
+}
+.icon-x {
+  display: none;
+}
+.navbar-buttons {
+  display: none;
+}
+.login-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-full {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+.login-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.login-content {
+  margin-left: 15%;
+  width: 312px;
+}
+.login-main h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #2e3a59;
+}
+.login-main p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #8f9bb3;
+}
+.login-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+.google-button {
+  position: relative;
+}
+.google-img {
+  position: absolute;
+  padding: 10px;
+}
+.login-buttons .google {
+  width: 152px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #c5cee0;
+  border-radius: 8px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #222b45;
+  padding-left: 16px;
+}
+.facebook-button {
+  position: relative;
+}
+.facebook-img {
+  position: absolute;
+  padding: 12px;
+}
+.login-buttons .facebook {
+  width: 152px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #c5cee0;
+  border-radius: 8px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #222b45;
+  padding-left: 16px;
+}
+.rectangle {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #8f9bb3;
+  gap: 32px;
+  margin-top: 16px;
+}
+.login-mail label {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #2e3a59;
+}
+.login-mail form {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.log-mail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.login-mail input {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8f9bb3;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f7f9fc;
+  border: 1px solid #e4e9f2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.log-password {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.log-password i {
+  position: absolute;
+  right: 12px;
+  top: 54%;
+  color: #8f9bb3;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.bottom label {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #2e3a59;
+}
+.bottom .forgetpass {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #3366ff;
+}
+.login-button {
+  width: 312px;
+  height: 48px;
+  background: #ffd339;
+  border-radius: 8px;
+  border-color: #ffd339;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #222b45;
+  margin-top: 58px;
+}
+
+@media screen and (max-width: 450px) {
+  .navbar {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navbar p {
+    display: none;
+  }
+  .navbar button {
+    display: none;
+  }
+  .icon-x {
+    display: flex;
+  }
+  .navbar-buttons {
+    display: flex;
+    background-color: #ffd339;
+    width: 100%;
+    height: 72px;
+    position: relative;
+    justify-content: center;
+  }
+  .navbar-button {
+    display: flex;
+    width: 94%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+  }
+  .log-button {
+    width: 180px;
+    height: 48px;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #2e3a59;
+    background-color: white;
+    border-color: white;
+    border-radius: 8px 8px 0px 0px;
+    outline: none;
+    border: none;
+  }
+  .signup-button {
+    width: 180px;
+    height: 48px;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #2e3a59;
+    background-color: #ffea88;
+    border-color: #ffea88;
+    border-radius: 8px 8px 0px 0px;
+    outline: none;
+    border: none;
+  }
+
+  .login-full .image {
+    display: none;
+  }
+  .login-main {
+    display: none;
+  }
+  .login-section {
+    width: 93%;
+  }
+  .login-full {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}

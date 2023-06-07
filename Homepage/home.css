@@ -1,0 +1,1099 @@
+@import url("https://fonts.cdnfonts.com/css/euclid-circular-a");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+.choose {
+  color: #2e3a59;
+  font-family: "Euclid Circular A";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.choose li {
+  list-style: none;
+}
+.logo {
+  height: 48px;
+  width: 152px;
+  left: 112px;
+  top: 20px;
+}
+.navbar-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.login-button {
+  border: 1px solid #c5cee0;
+  border-radius: 8px;
+  background-color: white;
+  width: 101px;
+  height: 40px;
+  color: #2e3a59;
+  margin-left: 10px;
+}
+.signup-button {
+  background-color: #ffd339;
+  color: #2e3a59;
+  border-radius: 8px;
+  width: 101px;
+  height: 40px;
+  border-color: #ffd339;
+}
+.language-money {
+  font-style: "Euclid Circular A";
+  line-height: 20px;
+  width: 56px;
+  gap: 20px;
+  display: flex;
+}
+.globe {
+  display: flex;
+  align-items: center;
+}
+.selects {
+  border-style: none;
+  box-sizing: border-box;
+  border-color: #c5cee0;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #2e3a59;
+}
+.selects option {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #2e3a59;
+  background: #ffffff;
+  border: 1px solid #c5cee0;
+  box-sizing: border-box;
+  border-color: #c5cee0;
+  border-radius: 4px;
+}
+.section-main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.section-main .frame10 {
+  position: absolute;
+  bottom: 96px;
+  left: 112px;
+}
+.section-main .group5426 {
+  position: absolute;
+  bottom: 50px;
+  right: 112px;
+}
+.section-main .plus-image {
+  position: absolute;
+  right: 112px;
+  bottom: 338px;
+}
+.main-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-content {
+  width: 60%;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: #222b45;
+}
+.little-content {
+  width: 42%;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #8f9bb3;
+}
+.guests-button {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  color: #222b45;
+  background: #ffd339;
+  border-radius: 4px;
+  width: 262px;
+  height: 48px;
+}
+.creator-button {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  color: #222b45;
+  background: #e4e9f2;
+  border-radius: 4px;
+  width: 262px;
+  height: 48px;
+}
+.main-button {
+  color: #8f9bb3;
+  font-style: normal;
+  font-family: "Euclid Circular A";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  top: 62px;
+  margin: 62px;
+  margin-left: 20px;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin-top: 30px;
+}
+.section-features {
+  background: #edf1f7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 550px;
+  width: 100%;
+  padding: 88px;
+}
+.section-features h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #222b45;
+}
+.helper-tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  gap: 4%;
+}
+.tool {
+  width: 100%;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #222b45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.tool-icon {
+  width: 54px;
+  height: 54px;
+  background-color: #ffd339;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tool p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #8f9bb3;
+  flex: none;
+}
+.section-work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-container {
+  width: 70%;
+}
+.section-work {
+  position: relative;
+}
+.section-work h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  color: #222b45;
+  text-align: left;
+  margin-top: 87px;
+}
+.how-work {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  margin: 10% 0;
+}
+.how-work .first-step {
+  width: 50%;
+}
+.how-work .underline {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  color: #ffd339;
+}
+.first-step h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  color: #222b45;
+}
+.first-step p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f9bb3;
+}
+.first-step .signup30 {
+  margin-top: 18px;
+  margin-bottom: 32px;
+}
+.second-step {
+  width: 384px;
+}
+.second-step h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  color: #222b45;
+}
+.second-step p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f9bb3;
+}
+.second-step .analyze {
+  margin-top: 18px;
+  margin-bottom: 32px;
+}
+.websites {
+  width: 384px;
+  height: 220px;
+  background: #ffd339;
+  box-shadow: 0px 8px 32px rgba(34, 43, 69, 0.08);
+  border-radius: 16px;
+}
+.full-websites {
+  position: relative;
+  height: 290px;
+  width: 486px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.ellipse9 {
+  position: absolute;
+  z-index: -2;
+  right: 0;
+  top: 0;
+}
+.rectangle16 {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+.websites-card ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 30px;
+}
+.websites h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #222b45;
+  margin: 25px;
+}
+.checkbox-website {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222b45;
+}
+input {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.how-work .full-welcome {
+  position: relative;
+}
+.ellipse1 {
+  position: absolute;
+  left: -15%;
+  top: 0;
+  z-index: -1;
+}
+.ellipse2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.how-work .welcome {
+  background: #f7f9fc;
+  border: 8px solid #ffffff;
+  box-shadow: 0px 8px 32px rgba(34, 43, 69, 0.08);
+  border-radius: 16px;
+  width: 70%;
+  height: 384px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.welcome h2 {
+  width: 203px;
+  height: 64px;
+  font-family: "Euclid Circular A";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #222b45;
+  margin-top: 128px;
+}
+
+.welcome .work-signup {
+  width: 184px;
+  height: 40px;
+  background: #ffd339;
+  border-radius: 8px;
+  border-color: #ffd339;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #222b45;
+  margin-top: 58px;
+}
+.welcome .work-login {
+  background: #ffffff;
+  border-color: white;
+  border-radius: 8px;
+  width: 184px;
+  height: 40px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #222b45;
+  margin-top: 14px;
+}
+.basket-logo {
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+.section-access {
+  background-color: #ffe16a;
+  width: 100%;
+  height: 376px;
+}
+.section-h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #222b45;
+  padding-top: 72px;
+}
+.access-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.access-box {
+  background: #222b45;
+  border-radius: 16px;
+  color: white;
+  width: 240px;
+  height: 128px;
+  margin-top: 72px;
+}
+.access-box h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  padding: 24px;
+}
+.access-box p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #8f9bb3;
+}
+.section-testimonials {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.about-designer {
+  height: 340px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-testimonials .testimonialsword {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #222b45;
+}
+.right-arrow,
+.left-arrow {
+  background-color: #f7f9fc;
+  border-radius: 50%;
+  padding: 12px;
+}
+.designer {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #e4e9f2;
+  border-radius: 8px;
+  width: 488px;
+  height: 340px;
+  padding: 31px;
+}
+.designer .designer-photo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+.designer-name {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #222b45;
+  position: relative;
+  z-index: 2;
+}
+.designer-name p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f9bb3;
+}
+.designer-rect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.designer-content {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e3a59;
+  margin-top: 40px;
+}
+.section-customers h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #222b45;
+  margin-top: 123px;
+  margin-bottom: 64px;
+}
+.section-customers {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.customer-marks {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yellow-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 70%;
+  background: #ffd339;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  height: 240px;
+  padding: 40px;
+  margin: 60px;
+}
+.card-content {
+  padding: 50px;
+}
+.card-content h1 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #222b45;
+}
+.card-content p {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e3a59;
+  margin-top: 24px;
+}
+.card-buttons {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 16px;
+  gap: 16px;
+}
+.guestpost-button {
+  background: #ffffff;
+  border-radius: 8px;
+  color: #222b45;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  width: 262px;
+  height: 48px;
+}
+.order-button {
+  box-sizing: border-box;
+  border: 1px solid #2e3a59;
+  border-radius: 8px;
+  width: 262px;
+  height: 48px;
+  background-color: #ffd339;
+  color: #2e3a59;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.first-row {
+  height: 491px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #f7f9fc;
+  padding: 57px;
+  gap: 16px;
+}
+.first-row h3 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #2e3a59;
+}
+.first-row li {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8f9bb3;
+  list-style-type: none;
+  margin-top: 16px;
+}
+.first-row li:hover {
+  color: #2e3a59;
+}
+.second-row {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-row ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-row li {
+  list-style: none;
+  margin: 0 10px;
+  padding: 12px;
+}
+.second-row li:hover {
+  background-color: #edf1f7;
+  padding: 12px;
+  border-radius: 50%;
+}
+.second-row ul li a {
+  list-style: none;
+  height: 24px;
+  color: #8f9bb3;
+}
+.third-row {
+  width: 100%;
+  height: 20px;
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2e3a59;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.menu-logo {
+  display: none;
+}
+.join-button {
+  display: none;
+}
+.rightleft-arrow {
+  display: none;
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    margin-left: 14%;
+  }
+  .section-main {
+    margin-left: 20%;
+  }
+  .section-features .features {
+    margin-left: 12%;
+  }
+  .navbar {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+    margin-bottom: 10px;
+  }
+  .choose {
+    display: none;
+  }
+  .language-money {
+    display: none;
+  }
+  .join-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #222b45;
+    background-color: #ffd339;
+    border-radius: 8px;
+    border-color: #ffd339;
+    margin-left: 22px;
+  }
+  .section-main {
+    height: auto;
+    align-items: flex-start;
+    top: 20px;
+    padding-bottom: 50px;
+  }
+  .main-content {
+    width: 90%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .little-content {
+    width: 85%;
+    margin-top: 50px;
+  }
+  .main-about {
+    width: 75%;
+  }
+  .frame10 {
+    display: none;
+  }
+  .group5426 {
+    width: 48px;
+  }
+  .plus-image {
+    left: 10px;
+    top: 120px;
+  }
+  .main-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+
+  .section-features {
+    height: auto;
+    width: 100%;
+    padding: 60px 0;
+  }
+  .section-features h1 {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    margin-left: 40%;
+  }
+  .features {
+    width: 80%;
+    margin-top: 15px;
+  }
+  .tool {
+    margin-top: 60px;
+  }
+  .tool-icon {
+    width: 54px;
+    height: 54px;
+    background-color: #ffd339;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tool p {
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #8f9bb3;
+    flex: none;
+  }
+  .helper-tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
+  }
+  .tool {
+    width: 90%;
+  }
+
+  .section-work {
+    justify-content: flex-start;
+    padding: 15px;
+    margin-left: 20%;
+  }
+  .how-work {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    margin: 3% 0;
+  }
+  .how-work .first-step {
+    width: 60%;
+  }
+  .how-work .welcome {
+    width: 55%;
+    height: 384px;
+    margin-left: 26px;
+  }
+  .ellipse2 {
+    right: 80px;
+  }
+
+  .websites {
+    width: 280px;
+    margin-left: 35px;
+  }
+  .full-websites {
+    width: 400px;
+    justify-content: flex-start;
+  }
+  .ellipse9 {
+    right: 70px;
+    top: 30px;
+  }
+  .rectangle16 {
+    width: 300px;
+    height: 250px;
+  }
+
+  .how-work .second-step {
+    width: 60%;
+    margin-bottom: 60px;
+  }
+
+  .section-access {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .section-access .access {
+    margin-left: 20%;
+  }
+  .access-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 78%;
+  }
+  .section-h1 {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    margin-left: 24%;
+    padding-top: 40px;
+  }
+  .section-testimonials {
+    height: auto;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 14%;
+  }
+  .section-testimonials .testimonialsword {
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 20%;
+    margin-top: 50px;
+  }
+  .about-designer .designer:nth-child(2) {
+    display: none;
+  }
+  .about-designer {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 20px;
+  }
+  .designer {
+    border: none;
+    width: 380px;
+    height: 300px;
+  }
+  .designer-name h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .designer-rect {
+    margin-top: 15px;
+  }
+  .right-arrow {
+    display: none;
+  }
+  .left-arrow {
+    display: none;
+  }
+  .rightleft-arrow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 28%;
+    margin-top: 24px;
+    gap: 30px;
+  }
+  .leftarr,
+  .rightarr {
+    background-color: #f7f9fc;
+    border-radius: 50%;
+    padding: 12px;
+  }
+  .section-customers {
+    height: auto;
+    align-items: flex-start;
+    margin-left: 14%;
+  }
+  .section-customers h1 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 30px;
+    margin-right: 18%;
+    margin-left: 18%;
+  }
+  .customer-marks {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow: scroll;
+  }
+  .customer-marks img {
+    width: 113px;
+    margin-bottom: 12px;
+  }
+  .yellow-card {
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 14%;
+  }
+  .card {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+    height: auto;
+    padding: 30px 20px 186px;
+    margin: 30px;
+  }
+  .card-content {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 80px;
+  }
+  .card-buttons {
+    column-gap: 24px;
+    gap: 24px;
+  }
+
+  .first-row {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #f7f9fc;
+    padding: 30px;
+    gap: 16px 16px;
+  }
+  .first-row .row-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-row ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-row h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-row {
+    width: 100%;
+  }
+  .third-row {
+    width: 100%;
+  }
+}
